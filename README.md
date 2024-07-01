@@ -135,6 +135,10 @@ async def qa_rag_service(question):
 假设你有一个简单的函数 `add`，用于将两个数相加：<br>
 
 ```python
+"""
+Description: 实现add函数。
+Notes: 
+"""
 # mymodule.py
 
 def add(a, b):
@@ -144,6 +148,10 @@ def add(a, b):
 可以在根目录下`tests`目录为这个函数编写一个单元测试：<br>
 
 ```python
+"""
+Description: 定义单元测试，测试add函数效果。
+Notes: 
+"""
 # test_mymodule.py
 
 import sys

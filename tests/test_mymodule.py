@@ -1,3 +1,7 @@
+"""
+Description: 定义单元测试，测试add函数效果。
+Notes: 
+"""
 # test_mymodule.py
 
 import sys
