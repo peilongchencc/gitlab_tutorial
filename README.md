@@ -1,6 +1,19 @@
 # Gitlab Tutorial
 
 GitLab企业版使用指南、Git项目开发、推送、维护规则。<br>
+
+极狐🦊GitLab链接:<br>
+
+```txt
+https://jihulab.com/
+```
+
+极狐🦊GitLab官方文档:<br>
+
+```txt
+https://www.wolai.com/gwbHb4oY8juQEBGNv7GCCz
+```
+
 - [Gitlab Tutorial](#gitlab-tutorial)
   - [为团队成员创建账号并分配权限:](#为团队成员创建账号并分配权限)
     - [设置权限:](#设置权限)
