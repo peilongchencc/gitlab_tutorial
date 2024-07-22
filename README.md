@@ -113,7 +113,13 @@
 
 ## 分支命名规范:
 
-以下规定的是企业内部分支命名规范，注意定义的来源(姓名)和创建时间。非企业内部分支可以去除来源(姓名)和创建时间。<br>
+规范的分支命名可以在多人合作时避免对他人造成干扰，同时方便追溯功能开发。以下为分支命名规范:<br>
+
+```txt
+格式: <类型>/<来源>/<成员名>/<日期>/<描述>
+```
+
+> 成员名可只使用缩写，例如 peilongchen --> plc。
 
 1. **主分支**:
    - `main` 或 `master`: 主要分支，通常是项目的生产版本分支。
@@ -122,16 +128,16 @@
    - `develop`: 开发主分支，通常是集成所有开发工作的分支。
 
 3. **功能分支** (Feature branches):
-   - `feature/<功能描述>`: 用于开发新功能。示例：`feature/peilongchencc/20240628/user-authentication`
+   - `feature/<功能描述>`: 用于开发新功能。示例：`feature/main/peilongchen/20240628/user-authentication`
 
 4. **修复分支** (Bugfix branches):
-   - `bugfix/<修复描述>`: 用于修复项目中的bug。示例：`bugfix/peilongchencc/20240613/fix-login-issue`
+   - `bugfix/<修复描述>`: 用于修复项目中的bug。示例：`bugfix/main/peilongchen/20240613/fix-login-issue`
 
 5. **发布分支** (Release branches):
-   - `release/<版本号>`: 用于准备发布的分支。示例：`release/peilongchencc/20240611/1.0.0`
+   - `release/<版本号>`: 用于准备发布的分支。示例：`release/peilongchen/20240611/1.0.0`
 
 6. **热修复分支** (Hotfix branches):
-   - `hotfix/<修复描述>`: 用于修复生产环境中的紧急问题。示例：`hotfix/peilongchencc/20240601/fix-critical-bug`
+   - `hotfix/<修复描述>`: 用于修复生产环境中的紧急问题。示例：`hotfix/develop/peilongchen/20240601/fix-critical-bug`
 
 ### 分支命名示例:
 
@@ -140,13 +146,13 @@
 ```log
 main
 develop
-feature/peilongchencc/20240628/user-authentication
-feature/peilongchencc/20240625/add-payment-gateway
-bugfix/peilongchencc/20240613/fix-login-issue
-bugfix/peilongchencc/20240611/fix-signup-validation
-release/peilongchencc/20240611/1.0.0
-release/peilongchencc/20240621/1.1.0
-hotfix/peilongchencc/20240601/fix-critical-bug
+feature/main/peilongchen/20240628/user-authentication
+feature/main/peilongchen/20240625/add-payment-gateway
+bugfix/main/peilongchen/20240613/fix-login-issue
+bugfix/main/peilongchen/20240611/fix-signup-validation
+release/peilongchen/20240611/1.0.0
+release/peilongchen/20240621/1.1.0
+hotfix/develop/peilongchen/20240601/fix-critical-bug
 ```
 
 ### 注意点:
@@ -167,7 +173,7 @@ hotfix/peilongchencc/20240601/fix-critical-bug
 
 ![](./docs/分支开发工作流.jpg)
 
-合并分支时:
+合并分支时:<br>
 
 1. 审批人需要先确定提交分支与主分支是否有冲突，如果有冲突，需要让提交人解决。
 
