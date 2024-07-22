@@ -37,6 +37,7 @@ https://www.wolai.com/gwbHb4oY8juQEBGNv7GCCz
     - [代码注释:](#代码注释)
     - [单元测试:](#单元测试)
 
+
 ## 为团队成员创建账号并分配权限:
 
 ### 设置权限:
@@ -147,7 +148,8 @@ https://www.wolai.com/gwbHb4oY8juQEBGNv7GCCz
 格式: <类型>/<来源>/<成员名>/<日期>/<描述>
 ```
 
-> 成员名可只使用缩写，例如 peilongchen --> plc。
+> [!TIP]
+ > 成员名可只使用缩写，例如 peilongchen --> plc。
 
 1. **主分支**:
    - `main` 或 `master`: 主要分支，通常是项目的生产版本分支。
