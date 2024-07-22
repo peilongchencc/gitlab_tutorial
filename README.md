@@ -1,4 +1,4 @@
-# Gitlab Tutorial
+# GitLab Tutorial
 
 GitLab企业版使用指南、Git项目开发、推送、维护规则。<br>
 
@@ -14,7 +14,7 @@ https://jihulab.com/
 https://www.wolai.com/gwbHb4oY8juQEBGNv7GCCz
 ```
 
-- [Gitlab Tutorial](#gitlab-tutorial)
+- [GitLab Tutorial](#gitlab-tutorial)
   - [为团队成员创建账号并分配权限:](#为团队成员创建账号并分配权限)
     - [设置权限:](#设置权限)
     - [2FA双因素认证(可选):](#2fa双因素认证可选)
@@ -33,8 +33,8 @@ https://www.wolai.com/gwbHb4oY8juQEBGNv7GCCz
     - [注意点:](#注意点)
   - [定义推送规则:](#定义推送规则)
   - [分支开发工作流:](#分支开发工作流)
-  - [代码质量:](#代码质量)
-    - [注释:](#注释)
+  - [代码质量审批:](#代码质量审批)
+    - [代码注释:](#代码注释)
     - [单元测试:](#单元测试)
 
 ## 为团队成员创建账号并分配权限:
@@ -208,13 +208,13 @@ hotfix/develop/peilongchen/20240601/fix-critical-bug
 2. 代码审批，杜绝提交垃圾文件，冗余代码，无用代码，垃圾代码。防止主程序逻辑混乱，无关程序影响主程序耗时。
 
 
-## 代码质量:
+## 代码质量审批:
 
 ![](./docs/什么是代码质量.jpg)
 
 尤其是项目解释型文档(`README.md`)、代码注释，如果不合格，审批不予以通过。<br>
 
-### 注释:
+### 代码注释:
 
 代码注释风格可参考 [**google风格注释**](https://google.github.io/styleguide/pyguide.html) ，python代码的示例如下:<br>
 
