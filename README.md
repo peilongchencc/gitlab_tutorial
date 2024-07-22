@@ -1,6 +1,6 @@
 # Gitlab Tutorial
 
-GitLab企业版使用指南、Git项目维护规则。<br>
+GitLab企业版使用指南、Git项目开发、推送、维护规则。<br>
 - [Gitlab Tutorial](#gitlab-tutorial)
   - [为团队成员创建账号并分配权限:](#为团队成员创建账号并分配权限)
     - [设置权限:](#设置权限)
