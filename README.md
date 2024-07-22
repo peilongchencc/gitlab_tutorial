@@ -188,7 +188,7 @@ hotfix/develop/peilongchen/20240601/fix-critical-bug
 
 ### 注释:
 
-代码注释风格可参考**google风格注释**，python代码的示例如下:<br>
+代码注释风格可参考 [**google风格注释**](https://google.github.io/styleguide/pyguide.html) ，python代码的示例如下:<br>
 
 ```python
 async def qa_rag_service(question):
