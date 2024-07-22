@@ -149,7 +149,7 @@ https://www.wolai.com/gwbHb4oY8juQEBGNv7GCCz
 ```
 
 > [!TIP]
- > 成员名可只使用缩写，例如 peilongchen --> plc。
+> 成员名可只使用缩写，例如 peilongchen --> plc。
 
 1. **主分支**:
    - `main` 或 `master`: 主要分支，通常是项目的生产版本分支。
